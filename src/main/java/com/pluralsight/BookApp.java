@@ -34,7 +34,8 @@ public class BookApp {
 
 
         for (Book book:books) {
-            System.out.println(book);
+
+            book.display();
         }
 
 
